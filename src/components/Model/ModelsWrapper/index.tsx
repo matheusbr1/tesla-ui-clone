@@ -1,7 +1,8 @@
 import React, { useCallback, useRef, useState } from 'react';
+import ModelOverlay from '../ModelOverlay';
 import ModelsContext, { CarModel } from '../ModelsContext';
 
-import { Container, OverlaysRoot, ModelOverlay } from './styles'
+import { Container, OverlaysRoot } from './styles'
 
 const ModelWrapper: React.FC = ({ children }) => {
   const wrapperRef = useRef<HTMLDivElement>(null)
