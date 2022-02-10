@@ -1,7 +1,7 @@
 import { useTransform } from 'framer-motion'
 import React, { useCallback, useLayoutEffect, useState } from 'react'
-import { CarModel } from '../ModelsContext'
-import useWrapperScroll from '../useWrapperScroll'
+import { CarModel } from '../Model/ModelsContext'
+import useWrapperScroll from '../Model/useWrapperScroll'
 
 import { Container } from './styles'
 

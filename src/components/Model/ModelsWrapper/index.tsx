@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState } from 'react';
-import ModelOverlay from '../ModelOverlay';
+import ModelOverlay from '../../ModelOverlay';
 import ModelsContext, { CarModel } from '../ModelsContext';
 
 import { Container, OverlaysRoot } from './styles'
