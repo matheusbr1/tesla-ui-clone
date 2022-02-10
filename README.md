@@ -14,10 +14,7 @@ $ yarn install
 
 Start the App
 $ yarn start
-
 </pre>
-
-<br />
 
 ### Built with
 <ul>
